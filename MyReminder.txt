@@ -1,0 +1,7 @@
+initiall laravel project instalation:
+    - composer create-project laravel/laravel web-stip
+
+install filament
+    - composer require filament/filament -W
+    - php artisan filament:install --panels
+    - php artisan make:filament-user
