@@ -5,3 +5,6 @@ install filament
     - composer require filament/filament -W
     - php artisan filament:install --panels
     - php artisan make:filament-user
+    - php artisan vendor:publish --tag=filament-config
+    - php artisan migrate
+    - php artisan make:filament-resource ValueCategory --simple (--simple for no relation resource )
